@@ -14,7 +14,7 @@ const nowPlaying = "now_playing";
 const topRated = "top_rated";
 
 const Card = ({ img }) => {
-  return <img className="card" src={img} alt="banner" />;
+  return <img className="card" onClick={() => {}} src={img} alt="banner" />;
 };
 
 const Row = ({ title, arr = [] }) => {
