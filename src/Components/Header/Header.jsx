@@ -3,6 +3,7 @@ import logo from "../../images/netflix-logo.png";
 
 import { Link } from "react-router-dom";
 import { GoSearch } from "react-icons/go";
+import "../../App.scss";
 
 const Header = () => {
   return (
